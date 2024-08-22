@@ -1,0 +1,37 @@
+{
+  "name": "text-analysis",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "compromise": "^14.14.0",
+    "dictionary-en": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "natural": "^7.1.0",
+    "node-summary": "^1.2.0",
+    "nodejs-text-summarizer": "^2.0.3",
+    "nodemon": "^3.1.4",
+    "nspell": "^2.1.5",
+    "pos": "^0.4.2",
+    "spellchecker": "^3.7.1",
+    "summarizer": "^1.0.0",
+    "text-summarization": "^1.0.4",
+    "wink-nlp": "^2.3.0",
+    "wordnet": "^2.0.0",
+    "wordnet-db": "^3.1.14",
+    "wordpos": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node-summary": "^1.2.3"
+  }
+}
